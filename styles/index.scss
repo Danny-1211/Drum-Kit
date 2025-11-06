@@ -1,1 +1,40 @@
-@use 'reset';
+@use "reset";
+
+body {
+  box-sizing: border-box;
+  height: 100%;
+}
+.keys {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../images/banner.png');
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.key{
+  width:100%;
+  height: 100%;
+  max-width: 100px;
+  max-height: 100px;
+  background-color: #2F6479;
+  border: 1px solid #2F6479;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  kbd{
+    font-size: 32px;
+    color:#C1BFB5;
+  }
+  .sound{
+    color:#FEFDFF;
+  }
+}
