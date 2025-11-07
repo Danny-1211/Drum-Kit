@@ -74,12 +74,16 @@ body {
   max-height: 100px;
   background-color: #2F6479;
   border: 1px solid #2F6479;
+  opacity: 0.75;
+  box-shadow: 0 0 10px #2F6479;
   border-radius: 5px;
   padding: 12px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  transition: all 0.85s;
   gap: 8px;
 }
 .key kbd {
@@ -88,4 +92,10 @@ body {
 }
 .key .sound {
   color: #FEFDFF;
+}
+
+.playing {
+  transform: scale(1, 1);
+  border: 5px solid #9BA2FF;
+  box-shadow: 0 0 10px #000000;
 }/*# sourceMappingURL=index.css.map */
